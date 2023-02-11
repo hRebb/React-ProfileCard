@@ -1,9 +1,10 @@
-import './App.css'
+import './App.css';
+import Card from "./Card";
 
 export default function App() {
   return (
     <main>
-      Here to implement
+      <Card initialName={''} initialStatus={''} />
     </main>
   )
 }
